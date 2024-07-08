@@ -21,7 +21,16 @@ import 'package:flutter/rendering.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 import 'package:url_launcher/link.dart';
 
-final wordList = ['STAR', 'HAPPY FACE', 'MOON', 'ARROW', 'DIAMOND', 'SUN'];
+final wordList = [
+  'STAR',
+  'HAPPY FACE',
+  'MOON',
+  'ARROW',
+  'DIAMOND',
+  'SUN',
+  'DOG',
+  'CAT'
+];
 
 void main() {
   runApp(const GenerativeAISample());
@@ -258,6 +267,7 @@ class _ChatWidgetState extends State<ChatWidget> {
                 ElevatedButton(
                   onPressed: () => setState(() {
                     dots.clear();
+                    idResult = null;
                   }),
                   child: const Text('Clear'),
                 ),
