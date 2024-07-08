@@ -14,3 +14,7 @@ with this command:
 ```bash
 flutter create --project-name flutter_draw_it_sample .
 ```
+
+## Gemeni API KEY:
+
+AIzaSyDZcoznSmEJ1Qa2knC1cBJ9tjH9nesOjeo
